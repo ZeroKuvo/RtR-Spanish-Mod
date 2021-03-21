@@ -17,17 +17,17 @@ Todavía lo sigo arreglando para que se vea bien dentro del juego ya que algunos
 
  
 
-###### -Instalación
+### -Instalación
 
  
 
-Una vez que lo descarguen de github o de drive, descomprimen la carpeta y pegan el folder <Espanol> dentro del folder <localization> ubicado en los archivos locales del juego. Una vez hecho eso, inician el juego, seleccionan la bandera, cambian el idioma, y les pedirá que reinicien el juego.
+Una vez que lo descarguen de github o de drive, descomprimen la carpeta y pegan el folder ***Espanol*** dentro del folder ***localization*** ubicado en los archivos locales del juego. Una vez hecho eso, inician el juego, seleccionan la bandera, cambian el idioma, y les pedirá que reinicien el juego.
 
 Para el caso de Steam, solo suscríbanse al mod en Workshop y se instalará automáticamente. Ya solo cambian el idioma dentro del juego
 
  
 
-###### -Links
+### -Links
 
 - [Foro Rise to Ruins](https://risetoruins.com/index.php?/topic/1836-rise-to-ruins-spanish-translation-espa%C3%B1ol-latam-mexico/)
 - [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1736936175)

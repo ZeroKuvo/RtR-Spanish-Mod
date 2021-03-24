@@ -361,7 +361,7 @@ perkType:
   globalWorkSpeed:
     text: "Vel. Global de Trabajo"
   harvestingSpeed:
-    text: "Vel de Cosecha"
+    text: "Vel de recolección"
   refiningSpeed:
     text: "Vel de Refinado"
   buildingSpeed:
@@ -3114,12 +3114,12 @@ goal:
 
   harvest:
     header:
-      text: "Cosecha {resourceName}"
+      text: "Recolecta {resourceName}"
     body:
       any: 
-        text: "¡Cosecha $GRE1{amount}$WHI0 {resourceName}$GRE1 en cualquier región$WHI0!"
+        text: "¡Recoge $GRE1{amount}$WHI0 {resourceName}$GRE1 en cualquier región$WHI0!"
       specific:
-        text: "¡Cosecha $GRE1{amount}$WHI0 {resourceName}$WHI0 en $GRE1{mapName}$WHI0!"
+        text: "¡Recoge $GRE1{amount}$WHI0 {resourceName}$WHI0 en $GRE1{mapName}$WHI0!"
 
   manufacture:
     header:
@@ -4074,7 +4074,7 @@ mapEditorPlayRightPanel:
       roadsAndDiggingHeader:
         text: "Caminos y Excavación"
       roadsAndDigging:
-        text: "Requiere Choza del Constructor de Caminos"
+        text: "Req. Choza del Constructor de Caminos"
       tilesHeader:
         text: "Baldosas"
       sandboxToolsHeader:
@@ -4116,7 +4116,7 @@ mapEditorPlayRightPanel:
       gatesAndWalls:
         text: "Puertas y Muros"                              
       harvesting:
-        text: "Cosecha"
+        text: "Recolección"
       housing:
         text: "Hogar"
       lighting:
@@ -4923,11 +4923,11 @@ playResourceListPanel:
     totalWaterHeader:
       text: "Total de Agua"
     totalWater:
-      text: "Total de agua bebible en todas las construcciones combinadas que se puede almacenar, como recolectores de lluvia, casas, y pozos. No incluye agua sucia."
+      text: "Total de agua bebible que se puede almacenar en todos los edificios, como recolectores de lluvia, casas y pozos. No incluye agua sucia."
     totalDirtyWaterHeader:
       text: "Total de Agua Sucia"
     totalDirtyWater:
-      text: "Total de agua sucia en todas las construcciones combinadas que se puede almacenar, como granjas, y purificadoras de agua. No incluye agua bebible."
+      text: "Total de agua sucia que se puede almacenar en todos los edificios, como granjas y purificadoras de agua. No incluye agua bebible."
     totalResourcesHeader:
       text: "Total de Recursos"
     totalResources:
@@ -4948,13 +4948,13 @@ playResourceListPanel:
      text: "Total"
      forceCount: "true"
     equip:
-      text: "Equipado"
+      text: "Equip."
     carry:
       text: "Encima"
     ground:
       text: "Tirado"
     stored:
-      text: "Almacenado"
+      text: "Almac."
       
   header:
     text: "Lista de Recursos"
@@ -5017,11 +5017,11 @@ playLeftJobDescriptionPanel:
     canDeliverToBuildRoads:
       text: "Puede Enviar (Para Construir Caminos)"
     canHarvestToBuild:
-      text: "Puede Cosechar (Para Construir)"
+      text: "Puede REcolectar (Para Construir)"
     canDeliverToBuild:
       text: "Puede Enviar (Para Construir)"
     canHarvestToStore:
-      text: "Puede Cosechar (Para Almacenar)"
+      text: "Puede Recolectar (Para Almacenar)"
     canRefineOrManufacture:
       text: "Puede Refinar/Fabricar"
     canSlaughter:
@@ -5088,15 +5088,15 @@ playLeftPanel:
       tradeHeader:
         text: "Intercambio"
       trade:
-        text: "Requiere Mercado"
+        text: "Req. Mercado"
       migrationHeader:
         text: "Migración"
       migration:
-        text: "Requiere Estación de Migración"
+        text: "Req. Estación de Migración"
       courierHeader:
         text: "Mensajero"
       courier:
-        text: "Requiere Estación de Mensajero"
+        text: "Req. Estación de Mensajero"
       hidePanelHeader:
         text: "Ocultar Panel"
         
@@ -5163,7 +5163,7 @@ playLeftPanel:
         text: "Total actual de obreros disponibles, y cuánto oro costará contratarlos."
         
     requiresMarketplace:
-      text: "Requiere Mercado"
+      text: "Req. Mercado"
     empty:
       text: "$BLA1Vacío"
     sellAmountAndPrice:
@@ -5245,7 +5245,7 @@ playLeftPanel:
       maintainStorage:
         text: "Mantendrá {resourceName} ilimitados, solo se detendrá si no hay espacio para almacenarlos."                                                                                                     
       requiresResource:
-        text: "Requiere {resourceName}"
+        text: "Req. {resourceName}"
   
     header:
       resourceManagement:
@@ -5275,9 +5275,9 @@ playLeftPanel:
     monsterDrop:
       text: "$BLA2Soltado Solo por Monstruos"
     requiresWaterSource:
-      text: "$BLA2Requiere una Fuente de Agua"
+      text: "$BLA2Req. una Fuente de Agua"
     requiresBuilding:
-      text: "$BLA2Requiere {buildingName}"
+      text: "$BLA2Req. {buildingName}"
 
   migration:
     button:
@@ -5793,7 +5793,7 @@ playResourceAndInfluenceBar:
         
   tooltip:
     resourceCountAndStorageHeader:
-      text: "Recurso Cuenta/Almacenado"
+      text: "Cont. Recurso/Almacenado"
     resourceCountAndStorage:
       text: "Cantidad de {resourceNamePlural} en la aldea basado en el filtro de clasificación seleccionado, y la cantiad total de espacio disponible para almacenar {resourceName}."
     totalGoldCoinsHeader:
@@ -5803,11 +5803,11 @@ playResourceAndInfluenceBar:
     totalWaterHeader:
       text: "Total de Agua"
     totalWater:
-      text: "Total de agua bebible en todos los edificios combinados que se puede almacenar, como recolectores de lluvia, casas, y pozos. No incluye agua sucia."
+      text: "Total de agua bebible que se puede almacenar en todos los edificios, como recolectores de lluvia, casas y pozos. No incluye agua sucia."
     totalEnergyHeader:
       text: "Total de Energía"
     totalEnergy:
-      text: "Total de energía en todos los edificios combinados que se puede almacenar, como recolectores de esencia, combobuladores de gólem, y torres mágicas."
+      text: "Total de energía que se puede almacenar en todos los edificios, como recolectores de esencia, combobuladores de gólem y torres mágicas."
     totalInfluenceHeader:
       text: "Influencia"
     totalInfluence:
@@ -6011,7 +6011,7 @@ playSelectedObjectPanel:
     providedDailyMigrations:
       text: "Incrementa la cantidad de aldeanos que puedes preparar para migrar en la mañana cada día."
     providedWorkersHeader:
-      text: "Trabajdores Previstos"
+      text: "Trabajadores Previstos"
     providedWorkers:
       text: "Cuántos espacios adicionales de trabajo proporciona este edificio para los trabajos que puede hacer."
     desiredAndMaxWorkersHeader:
@@ -6071,7 +6071,7 @@ playSelectedObjectPanel:
     ammo:
       text: "Cantidad de munición que está cargada actualmente en este edificio, así como la cantiad máxima que puede cargar. No incluye la munición sin cargar que está almacenada en el edificio."
     resourceStores:
-      text: "{resourceName} Almacena"
+      text: "{resourceName} Almacenado"
     resourceValues:
       text: "{resourceName} Valores"
           
@@ -6166,31 +6166,31 @@ playSelectedObjectPanel:
     text: "$GRE0{amount}% $WHI0Global"
     forceCount: "true"
   processingTrashSpeed:
-    text: "$GRE0{amount}% $WHI0Procesando Basura"
+    text: "$GRE0{amount}% $WHI0Procesar Basura"
   buildingSpeed:
-    text: "$GRE0{amount}% $WHI0Construyendo"
+    text: "$GRE0{amount}% $WHI0Construcción"
   buildRoadSpeed:
-    text: "$GRE0{amount}% $WHI0Construir Camino"
+    text: "$GRE0{amount}% $WHI0Const. Camino"
   dismantlingSpeed:
-    text: "$GRE0{amount}% $WHI0Desmantelando"
+    text: "$GRE0{amount}% $WHI0Desmantelamiento"
   clearingSpeed:
-    text: "$GRE0{amount}% $WHI0Limpiando"
+    text: "$GRE0{amount}% $WHI0Limpieza"
   repairingSpeed:
-    text: "$GRE0{amount}% $WHI0Reparando"
+    text: "$GRE0{amount}% $WHI0Reparación"
   repairRoadSpeed:
-    text: "$GRE0{amount}% $WHI0Reparar Camino"
+    text: "$GRE0{amount}% $WHI0Reparación Camino"
   farmingSpeed:
-    text: "$GRE0{amount}% $WHI0Cultivando"
+    text: "$GRE0{amount}% $WHI0Cultivo"
   medicWorkSpeed:
     text: "$GRE0{amount}% $WHI0Trabajo Médico"
   harvestingSpeed:
-    text: "$YEL1Velocidad de Cosecha"
+    text: "$YEL1Velocidad de Recolección"
   refiningSpeed:
     text: "$YEL1Velocidad de Refinado"
   homeBonusesHeader:
-    text: "$CYA1Bonificaciones de Casas"
+    text: "$CYA1Bonif. de Casas"
   sleepSpeedBoost:
-    text: "$GRE0{amount}% $WHI0Velocidad para Dormir"
+    text: "$GRE0{amount}% $WHI0Vel. de Descanso"
   healthRegenerationBoost:
     text: "$GRE0{amount} $WHI0Regen de Salud"
   reclaimMessage:
@@ -6227,7 +6227,7 @@ playSelectedObjectUpgradePanel:
       text: "Torre Defensiva"
       
   constructionRequirements:
-    text: "Requiere $RED1{buildingName}$WHI0 para $RED1{resourceName}"
+    text: "Req. $RED1{buildingName}$WHI0 para $RED1{resourceName}"
   supportConjuntion:
     comment: "En algunos casos, algunos edificios requieren o soportan múltiples edificios, esta es la parte de conjunción de la cadena."
     text: "$WHI0 o $RED0"
@@ -6259,7 +6259,7 @@ playSelectedObjectUpgradePanel:
   medicWorkSpeed:
     text: "$GRE0+{amount}% $WHI0Trabajo Médico"
   harvestSpeed:
-    text: "$YEL1Velocidad de Cosecha"
+    text: "$YEL1Velocidad de Recolec."
   refineSpeed:
     text: "$YEL1Velocidad de Refinado"
   sleepSpeedPlus:
@@ -6304,13 +6304,13 @@ playSelectedObjectUpgradePanel:
   housingCapacity:
     text: "Capacidad de Hogar: $GRE1+{amount}"
   workersSlots:
-    text: "Espacios para Trabajadores: $GRE1+{amount} {mobJobName}"
+    text: "Espac. de Trab.: $GRE1+{amount} {mobJobName}"
   buildingSlotsProvided:
-    text: "Espacios de Construcción Proporcionados: $GRE1+{amount}"
+    text: "Espac. de Construcciones: $GRE1+{amount}"
   acceptsEssence:
     text: "Acepta Esencia de Colectores"
   canCollectRawEssence:
-    text: "Puede Colectar Esencia Cruda"
+    text: "Puede Recoger Esencia Cruda"
   consumesCrylithium:
     text: "Consume Crylithium como Combustible"
   canBuildRoads:
@@ -7117,7 +7117,7 @@ playRightObjectDescriptionPanel:
       text: "Torre Defensiva"
     
   constructionRequirements:
-    text: "Requiere $RED1{buildingName}$WHI0 para $RED1{resourceName}"
+    text: "Req. $RED1{buildingName}$WHI0 para $RED1{resourceName}"
   supportConjuntion:
     text: "$WHI0 o $RED0"
   maximumStorage:
@@ -7164,9 +7164,9 @@ playRightObjectDescriptionPanel:
   housingCapacity:
     text: "Capacidad de Hogares: $GRE1{amount}"
   workersSlots:
-    text: "Espacios de Trab.: $GRE1{amount} {mobJobName}"
+    text: "Espac. de Trab.: $GRE1{amount} {mobJobName}"
   buildingSlotsProvided:
-    text: "Espacios Provistos de Construcción: $GRE1{amount}"
+    text: "Espacios de Construcciones: $GRE1{amount}"
   acceptsEssence:
     text: "Acepta Esencia de Colectores"
   canCollectRawEssence:
@@ -7805,15 +7805,15 @@ worldMapGameModeSelectPanel:
       
   description:
     nightmare:
-      text: "Un modo de juego casi imposible diseñado para desadiar incluso a los mejores jugadores. Espera una experiencia injusta y despiadada. Este modo es para el masoquista en todos nosotros.~~$RED0NO escojas este modo de juego. En serio, ¡no lo hagas!"
+      text: "Un modo de juego casi imposible diseñado para desafiar incluso a los mejores jugadores. Espera una experiencia injusta y despiadada. Este modo es para el masoquista en todos nosotros.~~$RED0NO escojas este modo de juego. En serio, ¡no lo hagas!"
     survival:
       text: "La forma en que el juego debe ser jugado. Brutalmente implacable, con una curvatura de aprendizaje.~~$RED0¡Espera a perder frecuentemente!~~$GRE0Intenta el modo tradicional si supervivencia es demasiado para ti."
     traditional:
-      text: "Una experiencia tradicional de un simulador de aldea, con muchos menos monstruos.~~Este modo es recomenado si quieres una experiencia más relajad, pero quieres algunas mecánicas de monstruos y defensas ligeras.~~$GRE0Modo de juego ideal para aprender a jugar. Pero una vez que aprendas, ¡cámbiate a supervivencia!"
+      text: "Una experiencia tradicional de un simulador de aldea, con muchos menos monstruos.~~Este modo es recomendado si quieres una experiencia más relajada, pero quieres algunas mecánicas de monstruos y defensas ligeras.~~$GRE0Modo de juego ideal para aprender a jugar. Pero una vez que aprendas, ¡cámbiate a supervivencia!"
     peaceful:
       text: "Un modo sin monstruos en lo absoluto. Solo preocupate de cuidar tu aldea, y sobrevive el paso de las estaciones.~~$GRE0Este modo no es recomenado a menos que estés buscando una experiencia relajada sin desafios."
     custom:
-      text: "Un modo de juego donde tu estableces todas las banderas de dificultad antes de jugar. Pero una vez establecidas, no pueden ser cambiadas hasta que reinicies el modo de juego.~~$GRE0Este modo es recomenado para jugadores experimentados que quieren experimentar con la doficultad del juego."
+      text: "Un modo de juego donde tu estableces todas las banderas de dificultad antes de jugar. Pero una vez establecidas, no pueden ser cambiadas hasta que reinicies el modo de juego.~~$GRE0Este modo es recomenado para jugadores experimentados que quieran experimentar con la dificultad del juego."
     sandbox:
       text: "¡Sin reglas! Juega con las mecánicas del juego, cambia la hora del día, aparece recursos y monstruos, genera partículas. ¡Haz lo que quieras y solo diviértete!~~Recomendado si estás interesado en jugar con las mecánicas del juego.~~No diseñado para jugadores serios de ningún tipo."
     selectGameMode:
@@ -7924,7 +7924,7 @@ worldMapMapSelectPanel:
         text: "$YEL1Retroceder Guardado"
       
   moreResourceTypes:
-    text: "Además $GRE1{amount}$WHI0 más tipos."
+    text: "Además $GRE1{amount}$WHI0 tipos más."
   total:
     text: "$YEL1TOTAL: {amount}"
     forceCount: "true"
@@ -8127,7 +8127,7 @@ helpTip:
     63:
       text: "Los caminos básicos no duran mucho, ¡considera poner un buen sistema de carreteras!"
     64:
-      text: "¿Quedándote sin espacios de construcción? Mejora tu Campamento o construye algunos Auxiliares antes."
+      text: "¿Quedándote sin espacios de construcción? Mejora tu Campamento o construye antes algunos Auxiliares."
       
   tip:
     sandboxModeHeader:
@@ -8137,11 +8137,11 @@ helpTip:
     gameSpeedHeader:
       text: "¡ADVERTENCIA DEL CONTROL DE VELOCIDAD!"
     gameSpeed:
-      text: "Los controles de velocidad toavía son nuevos, y experimentales. $RED1Ajustar los controles más allá de 2x puede causar severos problemas de rendimiento más adelnate en el juego.$WHI0 ¡Úsalo bajo tu propio riesgo! Si el juego no responde, puedes $GRE1presionar la barra espaciadora para pausar el juego, y disminuir la velocidad del juego antes de reanudar."
+      text: "Los controles de velocidad todavía son nuevos y experimentales. $RED1Ajustar los controles más allá de 2x puede causar severos problemas de rendimiento más adelante en el juego.$WHI0 ¡Úsalo bajo tu propio riesgo! Si el juego no responde, puedes $GRE1presionar la barra espaciadora para pausar el juego, y disminuir la velocidad del juego antes de reanudar."
     worldMapWelcomeHeader:
       text: "¡Bienvenido!"
     worldMapWelcome:
-      text: "Bienvenido a Rise to Ruins. Para tu primera aldea debes seleccionar una región que quieras haciendo click en las cajas iluminadas, y despues seleccionar 'Establecer Aldea'. A partir de ahí se te proporcionará algunos aldeanos gratis por primera vez para que empieces. Solo puedes seleccionar una región en el mapa a la vez. Después de que hayas establecido tu adea primaria te será posible expandrte fuera de esa región hacia las regiones conectadas, ¡así que escoge sabiamente! Por ahora, ¡solo concéntrate en desarrollar tu primera aldea!"
+      text: "Bienvenido a Rise to Ruins. Para tu primera aldea debes seleccionar una región que quieras haciendo click en las cajas iluminadas, y despues seleccionar 'Establecer Aldea'. A partir de ahí se te proporcionarán algunos aldeanos gratis por primera vez para que empieces. Solo puedes seleccionar una región en el mapa a la vez. Después de que hayas establecido tu aldea primaria, te será posible expandirte fuera de esa región hacia las regiones conectadas, ¡así que escoge sabiamente! Por ahora, ¡solo concéntrate en desarrollar tu primera aldea!"
     worldMapMigrationHeader:
       text: "¡Migrar!"
     worldMapMigration:
@@ -8153,27 +8153,27 @@ helpTip:
     welcomeTipsHeader:
       text: "¡Consejos!"
     welcomeTips:
-      text: "¡Hora de empezar! Como es tu primera vez, tendrás toneladas de consejos dentro del juego mientras juegas. $RED1Este juego tiene una curvatura de aprendizaje$WHI0, ¡y necesitarás toda la ayuda que puedas conseguir! $GRE1El juego se pausa cuando se muestra un consejo$WHI0, ¡así que por favor toma tu tiempo para leerlos!~~Puedes apagar los consejos en el menú de ajustes, ¡pero si nunca has jugado no es recomendable!"
+      text: "¡Hora de empezar! Como es tu primera vez, tendrás toneladas de consejos dentro del juego. $RED1Este juego tiene una curvatura de aprendizaje$WHI0, ¡y necesitarás toda la ayuda que puedas conseguir! $GRE1El juego se pausa cuando se muestra un consejo$WHI0, ¡así que por favor toma tu tiempo para leerlos!~~Puedes apagar los consejos en el menú de ajustes, ¡pero si nunca has jugado no es recomendable!"
     harvestingResourcesHeader:
-      text: "Cosechando Recursos"
+      text: "Recolectando Recursos"
     harvestingResources:
-      text: "Varios trabajadores asignados a edificios como la $YEL1Choza de Madera$WHI0, $YEL1Instalación Minera$WHI0 y $YEL1Centro de la Aldea$WHI0 están autorizados para cosechar recursos en el mapa como madera y piedras. Puedes asignar el trabajo usando los $GRE1botones de asiganción de cosecha que están en la esquina inferior izquierda del  GUI $WHI0 para el material que quieras recolectar, luego selecciona el recurso en el mapa. Si tienes trabajadores autorizados para recolectar recursos, ¡lo harán por sí mismos!"
+      text: "Varios trabajadores asignados a edificios como la $YEL1Choza del Leñador$WHI0, $YEL1Instalación Minera$WHI0 y $YEL1Centro de la Aldea$WHI0 están autorizados para recoger recursos en el mapa como madera y piedras. Puedes asignar el trabajo usando los $GRE1botones de asiganción de cosecha que están en la esquina inferior izquierda del  GUI $WHI0 para el material que quieras recolectar, luego selecciona el recurso en el mapa. Si tienes trabajadores autorizados para recolectar recursos, ¡lo harán por sí mismos!"
     villageWorkersHeader:
       text: "Trabajadores"
     villageWorkers:
-      text: "Muchos edificios pueden tener trabajadores asiganados, y permitirán diversos tipos de tareas ser completadas. Los $YEL1constructores$WHI0 asignados al $YEL1Centro de la Aldea$WHI0 por ejemplo pueden construir, reparar y desmantelar estructuras. Ellos también pueden cosechar materiales crudos, pero solo si se necesitan para construir algo. $YEL1Los Cosechadores$WHI0 de edificios como la $YEL1Choza de Madera$WHI0 por otra parte, continuarán cosechando materiales sin importar las necesidades de la aldea, y crearán pilas. $YEL1Puedes ver todo o que tus trabajadores pueden hacer en el panel 'mano de obra' de la izquierda."
+      text: "Muchos edificios pueden tener trabajadores asiganados, y permitirán diversos tipos de tareas ser completadas. Los $YEL1constructores$WHI0 asignados al $YEL1Centro de la Aldea$WHI0, por ejemplo, pueden construir, reparar y desmantelar estructuras. Ellos también pueden recoger materiales crudos, pero solo si se necesitan para construir algo. $YEL1Los Recolectores$WHI0 de edificios como la $YEL1Choza del Leñador$WHI0 por otra parte, continuarán recogiendo materiales sin importar las necesidades de la aldea, y crearán pilas. $YEL1Puedes ver todo lo que tus trabajadores pueden hacer en el panel 'mano de obra' de la izquierda."
     workBuildingsHeader:
       text: "Edificios de Trabajo"
     workBuildings:
-      text: "¡El nuevo {buildingName}$WHI0 que tus aldeanos construyeron ofrece a tu aldea {amount} $GRE1{mobJobName}$WHI0 espacios de trabajo! Si quieres que tus aldeanos se cambien a ese trabajo, tienes que aumentar la cantidad deseada de trabajadores para este. Puedes hacer esto en dos lugares, la $GRE1la pestaña mano de obra de la izquierda del GUI, o dando click en el {buildingName}$GRE1 y usar el mensaje flotante de abajo$WHI0. Luego, $GRE1da click en los botones + o -$WHI0 para ajustar la cantidad deseada de trabajadores que quieres. $RED1Si no tienes aldeanos disponibles, ¡asegúrate de disminuir los trabajadores deseados para otro trabajo!$WHI0"
+      text: "¡El nuevo edificio, {buildingName}$WHI0, que tus aldeanos construyeron ofrece a tu aldea {amount} espacios de trabajo de $GRE1{mobJobName}$WHI0! Si quieres que tus aldeanos se cambien a ese trabajo, tienes que aumentar la cantidad deseada de trabajadores para este. Puedes hacer esto en dos lugares, en $GRE1la pestaña mano de obra de la izquierda del GUI, o dando click en {buildingName}$GRE1 y usar el mensaje flotante de abajo$WHI0. Luego, $GRE1da click en los botones + o -$WHI0 para ajustar la cantidad deseada de trabajadores que quieres. $RED1Si no tienes aldeanos disponibles, ¡asegúrate de disminuir los trabajadores deseados de otro trabajo!$WHI0"
     buildingDamageHeader:
       text: "Edificios Dañados"
     buildingDamage:
-      text: "¡Un {buildingName}$WHI0 está siendo dañado! Si tienes constructores y a estructura está en el rango de la aldea automáticamente empezarán a repararlo cuando tengan tiempo."
+      text: "¡{buildingName}$WHI0 está siendo dañado! Si tienes constructores, y la estructura está en el rango de la aldea, automáticamente empezarán a repararlo cuando tengan tiempo."
     resouceManagementHeader:
       text: "Gestión de Recursos"
     resouceManagement:
-      text: "El {buildingName}$WHI0 que acabas de construir puede producir recursos como $YEL1{resourceName} $WHI0pero para que tus aldeanos trabajen en ellos $RED1necesitas asignar ambos {mobJobName} $RED1y asignar los recursos en la pestaña de Gestión de Recursos de la izquierda del GUI.$WHI0 Estableciendo un recurso a $GRE1'Mantener'$WHI0 tratará de mantener esa cantidad de recursos en la aldea todo el tiempo, mientras que $GRE1'Hacer'$WHI0 solo producirá inmediatamente esa cantidad para tí. También puedes establecer el valor de rango desde 500 hasta el máximo en tus alamcenes, o hasta infinito para producir recursos sin parar.  También puedes controlar los límites de cosecha de la misma manera."
+      text: "El {buildingName}$WHI0 que acabas de construir puede producir recursos como $YEL1{resourceName} $WHI0pero para que tus aldeanos trabajen en ellos $RED1necesitas asignar ambos {mobJobName} $RED1y asignar los recursos en la pestaña de Gestión de Recursos de la izquierda del GUI.$WHI0 Estableciendo un recurso a $GRE1'Mantener'$WHI0 tratará de mantener esa cantidad de recursos en la aldea todo el tiempo, mientras que $GRE1'Hacer'$WHI0 solo producirá inmediatamente esa cantidad para tí. También puedes establecer el valor de rango desde 500 hasta el máximo en tus almacenes, o hasta infinito para producir recursos sin parar.  También puedes controlar los límites de cosecha de la misma manera."
       revision: "1"
     energyHeader:
       text: "Energía"
@@ -8192,9 +8192,9 @@ helpTip:
     farmingHeader:
       text: "Agricultura"
     farming:   
-      text: "¡Tus aldeanos han construido su primer granja! Una vez que asignes trabajadores, empezarán la granja con algo de $GRE1comida salvaje y agua$WHI0. Puedes cosechar ambos con el botón $GRE1'Cosechar Comida y Agua'$WHI0 de la izquierda del GUI. ¡La comida que crece en granjas es mantenida y cosechada automáticamente!"
+      text: "¡Tus aldeanos han construido su primer granja! Una vez que asignes trabajadores, empezarán la granja con algo de $GRE1comida salvaje y agua$WHI0. Puedes recoger ambos con el botón $GRE1'Recoger Comida y Agua'$WHI0 de la izquierda del GUI. ¡La comida que crece en granjas es mantenida y cosechada automáticamente!"
     buildingPriorityHeader:
-      text: "Priorida de Construcción"
+      text: "Prioridad de Construcción"
     buildingPriority:   
       text: "¿Sabías que puedes ajustar las propiedades de construcción? Solo selecciona el botón $YEL1'Lista de Edificios'$WHI0 en la parte $YEL1superior derecha$WHI0 luego haz click en las $YEL1flechas arriba o abajo$WHI0 para reacomodar qué edificios tienen prioridad sobre otros. Edificios con alta prioridad serán construidos, desmanteados y reparados antes que los demás en la lista."
     noHomesHeader:
@@ -8205,7 +8205,7 @@ helpTip:
     noFarmsHeader:
       text: "Agricultura"
     noFarms:   
-      text: "Estás en el día {day} y no has construido ninguna $YEL1granja$WHI0, tus aldeanos necesitarán algo que comer. ¡No dejes que mueran de hambre! Una vez que hayas construido una $YEL1granja$WHI0 y asignado trabajadores a ella, les puedes enseñar a cosechar algo de comida cruda y la trerán a la granaj y la plantarán. Una vez plantadas, ¡la cosecharán automáticamente cuando esté lista!"
+      text: "Estás en el día {day} y no has construido ninguna $YEL1granja$WHI0, tus aldeanos necesitarán algo que comer. ¡No dejes que mueran de hambre! Una vez que hayas construido una $YEL1granja$WHI0 y asignado trabajadores a ella, les puedes enseñar a recoger algo de comida cruda y la traerán a la granja y la plantarán. Una vez plantadas, ¡la cosecharán automáticamente cuando esté lista!"
     noWaterHeader:
       text: "Agua"
     noWater:   
@@ -8222,7 +8222,7 @@ helpTip:
     lifeExpectancyHeader:
       text: "Esperanza de Vida"
     lifeExpectancy:   
-      text: "Los aldeanos que hayan vivido una vida dura, ¡no vivirán demasiado! La esperanza de vida de los aldeanos puede caer si están heridos, se mueren de hambre o solo generalmente tienen una mala vida. $YEL1Una vez que descienda la esperanza de vida, ¡nunca regresa!$WHI0 ¡Así que asegurate de cuidar a tus aldeanos para que tengas una fuerte, saludable y longeva fuerza de trabajo!"
+      text: "Los aldeanos que hayan vivido una vida dura, ¡no vivirán demasiado! La esperanza de vida de los aldeanos puede caer si están heridos, se mueren de hambre o solo tienen una mala vida en general. $YEL1Una vez que descienda la esperanza de vida, ¡nunca regresa!$WHI0 ¡Así que asegurate de cuidar a tus aldeanos para que tengas una fuerte, saludable y longeva fuerza de trabajo!"
       revision: "1"
     eldersHeader:
       text: "Aldeanos Ancianos"
@@ -8249,7 +8249,7 @@ helpTip:
     villagerSleepyNoHome:   
       text: "{mobName}$WHI0 empieza a tener sueño. Si tus aldeanos están muy cansados y no tiene un lugar en dónde descansar, terminarán durmiendo afuera."
     villagerSleepy:   
-      text: "{mobName}$WHI0 empieza a tener sueño. i tus aldeanos están muy cansados y no tiene un lugar en dónde descansar, terminarán durmiendo afuera. Por suerte, {mobName}$WHI0 tiene un hogar, ¡así que tratará de regresar ahí y tomar una siesta!"
+      text: "{mobName}$WHI0 empieza a tener sueño. Si tus aldeanos están muy cansados y no tiene un lugar en dónde descansar, terminarán durmiendo afuera. Por suerte, {mobName}$WHI0 tiene un hogar, ¡así que tratará de regresar ahí y tomar una siesta!"
     villagerFreezingHeader:
       text: "Congelando a Muerte"
     villagerFreezingNoHome:   
@@ -8261,11 +8261,11 @@ helpTip:
     villagerOverheatingHeader:
       text: "Sobrecalentamiento"
     villagerOverheatingNoHome:   
-      text: "¡{mobName}$WHI0 se está quemando en el calor! Si hace mucho calor afuera y tus aldeanos no tienen un hogar en donde endriarse, ¡podrían morir de cansancio por calor! ¡Trata de obtener suficientes casas para tus aldeanos tan pronto como puedas!"
+      text: "¡{mobName}$WHI0 se está quemando en el calor! Si hace mucho calor afuera y tus aldeanos no tienen un hogar en donde enfriarse, ¡podrían morir de cansancio por calor! ¡Trata de obtener suficientes casas para tus aldeanos tan pronto como puedas!"
     villagerOverheatingMale:   
-      text: "¡{mobName}$WHI0 se está quemando en el calor! Si hace mucho calor afuera y tus aldeanos no tienen un hogar en donde endriarse, ¡podrían morir de cansancio por calor! Por suerte, {mobName}$WHI0 tiene un hogar, ¡así que tratará de regresar ahí para enfriarse!"
+      text: "¡{mobName}$WHI0 se está quemando en el calor! Si hace mucho calor afuera y tus aldeanos no tienen un hogar en donde enfriarse, ¡podrían morir de cansancio por calor! Por suerte, {mobName}$WHI0 tiene un hogar, ¡así que tratará de regresar ahí para enfriarse!"
     villagerOverheatingFemale:   
-      text: "¡{mobName}$WHI0 se está quemando en el calor! Si hace mucho calor afuera y tus aldeanas no tienen un hogar en donde endriarse, ¡podrían morir de cansancio por calor! Por suerte, {mobName}$WHI0 tiene un hogar, ¡así que tratará de regresar ahí para enfriarse!"
+      text: "¡{mobName}$WHI0 se está quemando en el calor! Si hace mucho calor afuera y tus aldeanas no tienen un hogar en donde enfriarse, ¡podrían morir de cansancio por calor! Por suerte, {mobName}$WHI0 tiene un hogar, ¡así que tratará de regresar ahí para enfriarse!"
     matingHeader:
       text: "Apareamiento"
     matingDifferentGender:
@@ -8281,7 +8281,7 @@ helpTip:
     nomadHeader:
       text: "¡Nómadas!"
     nomad:   
-      text: "$YEL1Nómadas$WHI0 han venido a tu región, son amigables. Si logran llegar a tu adea sin ser asesinados, se unirán. Si quieres incrementar las posibilidades de tener más $YEL1Nómadas$WHI0, construye una aldea grande con suficientes casas y defensas."
+      text: "$YEL1Nómadas$WHI0 han venido a tu región, son amigables. Si logran llegar a tu aldea sin ser asesinados, se unirán. Si quieres incrementar las posibilidades de tener más $YEL1Nómadas$WHI0, construye una aldea grande con suficientes casas y defensas."
     essenceHeader:
       text: "Esencia"
     essence:   
@@ -8289,7 +8289,7 @@ helpTip:
     abandonedBuildingsHeader:
       text: "Edificios Abandonados"
     abandonedBuildings:   
-      text: "{buildingName}$WHI0 es un edificio abandonado, tus aldeanos necesitarán repararo antes de poder usarlo. Si la construcción está dentro del rango de tu aldea puedes hacer click en el edificio, y luego seleccionar el $GRE1botón de reclamo$WHI0 en la parte de abajo. "
+      text: "{buildingName}$WHI0 es un edificio abandonado, tus aldeanos necesitarán repararlo antes de poder usarlo. Si la construcción está dentro del rango de tu aldea, puedes hacer click en el edificio, y luego seleccionar el $GRE1botón de reclamo$WHI0 en la parte de abajo. "
     rainHeader:
       text: "¡Lluvia!"
     rain:   
@@ -8307,7 +8307,7 @@ helpTip:
     corruptionHeader:
       text: "Corrupción!"
     corruption:   
-      text: "Como probablemente ya te hayas dado cuenta, ¡tus aldeanos no son los únicos en esta región! Conforme el tiempo pasa, $RED1la corrupción$WHI0 se esparcirá lentamente sobre el mapa, y se verá amenazada si tratas de empujarla muy lejos, incrementando las tasas de aparición de monstruos y generalmente causando problemas. La resistencia a la corrupción de tu aldea prevenirá que la corrupción se esparsa, e incluso algunas veces puede hacer que retroceda. Pero, si eres codicioso y tratas de reclamar toda la tierra para ti, ¡estarás en un gran problema!"
+      text: "Como probablemente ya te hayas dado cuenta, ¡tus aldeanos no son los únicos en esta región! Conforme el tiempo pasa, $RED1la corrupción$WHI0 se esparcirá lentamente sobre el mapa, y se verá amenazada si tratas de empujarla muy lejos, incrementando las tasas de aparición de monstruos y en general causando problemas. La resistencia a la corrupción de tu aldea prevendrá que la corrupción se esparsa, e incluso algunas veces puede hacer que retroceda. Pero, si eres codicioso y tratas de reclamar toda la tierra para ti, ¡estarás en un gran problema!"
       revision: "1"
     seasonAutumnHeader:
       text: "Otoño"
@@ -8348,15 +8348,15 @@ helpTip:
     overharvestingHeader:
       text: "Sobrecosechando"
     overharvesting:
-      text: "¡Whoa! Espérate. $RED1Tienes demasiados recursos en el piso$WHI0. ¿Estás construyendo suficiente almacenamiento? ¡$RED1Si los recursos se dejan en el piso por mucho tiempo se volverán basura y empezarán a aparecer slimes de basura$WHI0! Si quieres tener una pila de recursos, ¡$YEL1deberías construrir algunos edificios de almacenamiento$WHI0! Están en la $YEL1pestaña almacenamiento$WHI0 en el panel de edificio. También puedes cosechar menos reduciendo cuantos trabajadores cosechadores tiene o incluso estableciendo un límite de cosecha en el panel de producción en la $YEL1parte izquierda$WHI0."
+      text: "¡Whoa! Espérate. $RED1Tienes demasiados recursos en el piso$WHI0. ¿Estás construyendo suficiente almacenamiento? ¡$RED1Si los recursos se dejan en el piso por mucho tiempo se volverán basura y empezarán a aparecer slimes de basura$WHI0! Si quieres tener una pila de recursos, ¡$YEL1deberías construrir algunos edificios de almacenamiento$WHI0! Están en la $YEL1pestaña almacenamiento$WHI0 en el panel de edificio. También puedes recoger menos reduciendo cuantos trabajadores cosechadores tiene o incluso estableciendo un límite de cosecha en el panel de producción en la $YEL1parte izquierda$WHI0."
     decayingResourcesHeader:
       text: "Recursos en Descomposición"
     decayingResources:
-      text: "$RED1¡Toneladas de recursos en la tierra se están empezando a convertir en basura!$WHI0 Si no quitas los recursos del piso, ¡empezarán a llenar tu aldea con basura y aparecerán slimes de basura! Deberías construir algo de almacenamiento para tus recursos, o no cosechar tanto. Si la basura ya se está volviendo un problema, asegúrate de $YEL1construir algunos vertederos$WHI0."
+      text: "$RED1¡Toneladas de recursos en la tierra se están empezando a convertir en basura!$WHI0 Si no quitas los recursos del piso, ¡empezarán a llenar tu aldea con basura y aparecerán slimes de basura! Deberías construir algo de almacenamiento para tus recursos, o no recoger tanto. Si la basura ya se está volviendo un problema, asegúrate de $YEL1construir algunos vertederos$WHI0."
     wallAttackedHeader:
       text: "¡Los Muros Están Siendo Atacados!"
     wallAttacked:
-      text: "$RED1¡Los monstruos están a punto de atacar tu {buildingName} y hacer un hoyo en tus defensas!$WHI0 Los monstruos atacarán tus paredes si la entrada principal a la aldea está muy congestionada. Puedes evitar esto construyendo más anchos tus muros del perímetro, o haciendo tu entrada principal a la aldea más amplia o más corta.~~Como incremente la cantidad de monstruos, tu laberinto estará más congestionado, alentándolos a atacar los muros. Asegúrate de no hacer un laberinto excesivamente largo y angosto. ¡Dales algo de espacio para respirar y continuarán concentrándose en donde $GRE1tú$WHI0 quieras!"
+      text: "$RED1¡Los monstruos están a punto de atacar tu {buildingName} y hacer un agujero en tus defensas!$WHI0 Los monstruos atacarán tus paredes si la entrada principal a la aldea está muy congestionada. Puedes evitar esto construyendo más anchos tus muros del perímetro, o haciendo tu entrada principal a la aldea más amplia o más corta.~~Como incremente la cantidad de monstruos, tu laberinto estará más congestionado, alentándolos a atacar los muros. Asegúrate de no hacer un laberinto excesivamente largo y angosto. ¡Dales algo de espacio para respirar y continuarán concentrándose en donde $GRE1tú$WHI0 quieras!"
       
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # Influence Module
@@ -8479,9 +8479,9 @@ spell:
       text: "Levanta recursos o criaturas en el mapa. Drena influencia entre más tiempo lo tengas sostenido y caerá si te quedas sin influencia."
   harvest:
     name:
-      text: "Cosechar"
+      text: "Recolección"
     description:
-      text: "Cosecha automáticamente recursos en la región, soltándolos en el piso para que tus aldeanos los recojan rápidamente. Asegúrate de lanzarlo dentro del rango de tu alda, ¡o nadie irá a levantarlos!"
+      text: "Recoge automáticamente recursos en la región, soltándolos en el piso para que tus aldeanos los recojan rápidamente. Asegúrate de lanzarlo dentro del rango de tu alda, ¡o nadie irá a levantarlos!"
   healingAura:
     name:
       text: "Aura Sanatoria"
@@ -8562,7 +8562,7 @@ spell:
     name:
       text: "Convocar Gólem Sagrado"
     description:
-      text: "Convoca un defensor sagrado que luchará hasta el final defendiendo a tu gente. Entre más vieja sea tu aldea, ¡más fuerte será el gólem! Los gólems toman influencia constantemente para manterse, disminuyendo permamentemente tu influencia máxima, pero puede ser disipado con el hechizo Disipar Gólem."
+      text: "Convoca un defensor sagrado que luchará hasta el final defendiendo a tu gente. Entre más vieja sea tu aldea, ¡más fuerte será el gólem! Los gólems toman influencia constantemente, disminuyendo tu influencia máxima, pero puede ser disipado con el hechizo Disipar Gólem."
       revision: "1"
   summonLaborGolem:
     name:
@@ -8591,7 +8591,7 @@ tileSet:
       name:
         text: "Esc de Sendero de Troncos"
       description:
-        text: "Camino deteriorado, puede ser reparado por un constructor de caminos o mantenimiento. Si no es reparado, puede deteriorarse completamente con el tiempo."
+        text: "Camino deteriorado, puede ser reparado por un constructor de caminos o de mantenimiento. Si no es reparado, puede deteriorarse completamente con el tiempo."
     logPath:
       name:
         text: "Sendero de Troncos"
@@ -8601,7 +8601,7 @@ tileSet:
       name:
         text: "Esc de Sendero de Troncos y Guijarro"
       description:
-        text: "Camino deteriorado, puede ser reparado por un constructor de caminos o mantenimiento. Si no es reparado, puede deteriorarse completamente con el tiempo."
+        text: "Camino deteriorado, puede ser reparado por un constructor de caminos o de mantenimiento. Si no es reparado, puede deteriorarse completamente con el tiempo."
     cobbleAndLogPath:
       name:
         text: "Sendero de Troncos y Guijarro"
@@ -8638,12 +8638,12 @@ tileSet:
       name:
         text: "Árboles"
       description:
-        text: "Proporcionan madera a la aldea, coséchalos y almacénalos al construir un aserradero. Los constructores también pueden cosecharlos si los necesitan para construir."
+        text: "Proporcionan madera a la aldea, recógelos y almacénalos al construir un aserradero. Los constructores también pueden recogerlos si los necesitan para construir."
     deadTrees:
       name:
         text: "Árboles Muertos"
       description:
-        text: "Proporcionan una pequeña cantidad de madera a la aldea, coséchalos y almacénalos al construir un aserradero. Los constructores también pueden cosecharlos si los necesitan para construir. Eventualmente regresarán a la vida si se dejan solos."
+        text: "Proporcionan una pequeña cantidad de madera a la aldea, recógelos y almacénalos al construir un aserradero. Los constructores también pueden recogerlos si los necesitan para construir. Eventualmente regresarán a la vida si se dejan solos."
     rock:
       name:
         text: "Rocas"
@@ -10178,7 +10178,7 @@ aiTask:
       
   corruptionHarvestWork:
     pathfindToHarvestWork:
-      text: "Caminando al sitio para cosechar algunos materiales"
+      text: "Caminando al sitio para recoger algunos materiales"
     harvestResource:
       text: "Cosechando materiales"
       
@@ -10220,7 +10220,7 @@ mobJob:
     plural:
       text: "Constructores"
     description:
-      text: "Un trabajo princ. en tu aldea, los const. se asegurarán de que todo esté construido y reparado. También cosecharán materiales, pero solo cuando los necesiten para construir algo y no haya disponibles."
+      text: "Un trabajo princ. en tu aldea, los const. se asegurarán de que todo esté construido y reparado. También recogerán materiales, pero solo cuando los necesiten para construir algo y no haya disponibles."
 
   carpenter:
     single:
@@ -10582,7 +10582,7 @@ object:
         name:
           text: "Armería Improvisada"
         description:
-          text: "Proporciona trabajadores que pueden convertir lingotes de hierro en armadura para tus aldeanos. Requiere una forja para procesar mineral crudo en lingotes y un corral de animales y una cocina para procesar pieles."
+          text: "Proporciona trabajadores que pueden convertir lingotes de hierro en armadura para tus aldeanos. Requiere una forja para procesar mineral crudo en lingotes, y un corral de animales y una cocina para procesar pieles."
           revision: "1"             
       base:
         name:
@@ -10627,7 +10627,7 @@ object:
         name:
           text: "Corral de Animales Improvisado"
         description:
-          text: "Permite a los guardabosques de la estación de guardabosques capturar animales que pueden ser asesinados en la cocina para obtener carne u otros materiales. Mientras estén capturados, ¡pueden aparearse!"
+          text: "Permite a los guardas de la estación de guardas capturar animales que pueden ser asesinados en la cocina para obtener carne y otros materiales. Mientras estén capturados, ¡pueden aparearse!"
       base:
         name:
           text: "Corral de Animales"
@@ -10737,7 +10737,7 @@ object:
         name:
           text: "Torre de Arco Improvisada"
         description:
-          text: "Una torre ligera con un rango decente que puede disparar sobre la mayoría de los muros. Buena para una defensa temprana. Requiere una arquería para fabricar pernos de ballesta para munición."
+          text: "Una torre ligera con un rango decente que puede disparar sobre la mayoría de los muros. Buena para una defensa temprana. Requiere una arquería para fabricar munición de pernos de ballesta."
       base:
         name:
           text: "Torre de Arco"
@@ -10852,7 +10852,7 @@ object:
         name:
           text: "Gallinero Improvisado"
         description:
-          text: "PErmite a los guardabosuqes de la estación de guardabosques capturar cluckers que pueden ser asesinados en la cocina para obtener carne y otros materiales. Mientras estén capturados, ¡los animales pueden aparearse!"
+          text: "Permite a los guardas de la estación de guardas capturar cluckers que pueden ser asesinados en la cocina para obtener carne y otros materiales. Mientras estén capturados, ¡los animales pueden aparearse!"
       base:
         name:
           text: "Gallinero"
@@ -10862,25 +10862,25 @@ object:
         name:
           text: "Gallinero Establecido"
         description:
-          text: "Aumenta aún más la capacidad máxima del gallinero."                                                                  
+          text: "Aumenta aún más la capacidad máxima del gallinero."                                                      
     
     crystalGolemCombobulator:
       makeshift:
         name:
           text: "Comb. de Gólem de Cristal Imp."
         description:
-          text: "Una constr. huésped que consume energía y cristales cercanos, creando gólems de cristal defensivamos con un ataque a distancia que protegerá tu aldea. Necesita un flujo cte de energía, o los gólems morirán."
+          text: "Una constr. huésped que consume energía y cristales cercanos, creando gólems de cristal defensivos con un ataque a distancia que protegerá tu aldea. Necesita un flujo cte de energía, o los gólems morirán."
           revision: "2"
       base:
         name:
           text: "Comb. de Gólem de Cristal"
         description:
-          text: "Incrementa cuántos gólems de cristal puede mantener el combobulador, también incrementa los niveles de los nuevos gólems engendrados, pero cuesta un poco más de energía producir un nuevo gólem."
+          text: "Incrementa cuántos gólems de cristal puede mantener el combobulador, también incrementa los niveles de los nuevos gólems generados, pero cuesta un poco más de energía producir un nuevo gólem."
       established:
         name:
           text: "Comb. de Gólem de Cristal Est."
         description:
-          text: "Incrementa cuántos gólems de cristal puede mantener el combobulador, también incrementa los niveles de los nuevos gólems engendrados, pero cuesta un poco más de energía producir un nuevo gólem."
+          text: "Incrementa cuántos gólems de cristal puede mantener el combobulador, también incrementa los niveles de los nuevos gólems generados, pero cuesta un poco más de energía producir un nuevo gólem."
       lightning:
         name:
           text: "Comb. de Gólem de Cristal Eléct."
@@ -10900,25 +10900,25 @@ object:
     crystalHarvestry:
       makeshift:
         name:
-          text: "Cosechadora de Cristal Impr."
+          text: "Recolector de Cristal Impr."
         description:
-          text: "Proporciona trabajadores para cosechar grandes cantidades de cristal y crear una pila, recurso principal en todas las construcciones basadas en magia."
+          text: "Proporciona trabajadores para recoger grandes cantidades de cristal y crear una pila, recurso principal en todas las construcciones basadas en magia."
       base:
         name:
-          text: "Cosechadora de Cristal"
+          text: "Recolector de Cristal"
         description:
-          text: "Proporciona una bonificación global de velocidad a todas las cosechadoras de cristal, incrementa el almacenamiento máximo y proporciona espacios de trabajadores adicionales."
+          text: "Proporciona una bonificación global de velocidad a todos los recolectores de cristal, incrementa el almacenamiento máximo y proporciona espacios de trabajadores adicionales."
       established:
         name:
-          text: "Cosechadora de Cristal Est."
+          text: "Recolector de Cristal Est."
         description:
-          text: "Proporciona una bonificación global de velocidad a todas las cosechadoras de cristal, incrementa el almacenamiento máximo y proporciona espacios de trabajadores adicionales."
+          text: "Proporciona una bonificación global de velocidad a todos los recolectores de cristal, incrementa el almacenamiento máximo y proporciona espacios de trabajadores adicionales."
     
     crystalMotivator:
       name:
         text: "Motivador de Cristal"
       description:
-        text: "Usa una pequeña cantidad de energía para motivar a que los parches de cristal cosechado crezca más rápido."
+        text: "Usa una pequeña cantidad de energía para motivar a que los parches de cristal recogido crezca más rápido."
     
     crystalStorage:
       small:
@@ -10952,7 +10952,7 @@ object:
         name:
           text: "Cristalería Improvisada"
         description:
-          text: "Proporciona trabajadores que refinan cristales cosechados por la cosechadora de cristal en crylithium, un combustible que puede ser usado para cargar los recolectores de esencia, y usado en algunas construcciones."
+          text: "Proporciona trabajadores que refinan cristales recogidos por el recolector de cristal en crylithium, un combustible que puede ser usado para cargar los recolectores de esencia, y usado en algunas construcciones."
       base:
         name:
           text: "Cristalería"
@@ -11075,7 +11075,7 @@ object:
         name:
           text: "Granja Improvisada"
         description:
-          text: "Crece comida para alimentar a la aldea. Requiere granjeros para cosechar comida salvaje y sembrar la granja. ¡Los granjeros atenderán y regarán los cultivos para incr. la vel. de crecimiento! Las granjas no funcionan bien en Verano o Invierno."
+          text: "Crece comida para alimentar a la aldea. Requiere granjeros para recoger comida salvaje y sembrar la granja. ¡Los granjeros atenderán y regarán los cultivos para incr. la vel. de crecimiento! Las granjas no funcionan bien en Verano o Invierno."
       base:
         name:
           text: "Granja"
@@ -11204,7 +11204,7 @@ object:
         name:
           text: "Alojamiento Improvisado"
         description:
-          text: "Alojamiento para tu aldea, ofreciendo un lugar donde los aldeanos puedan comer, dormir, curarse y recuperarse generalmente. ¡Siempre asegúrate de que tienes suficiente alojamiento para todos!"
+          text: "Alojamiento para tu aldea, ofreciendo un lugar donde los aldeanos puedan comer, dormir, curarse y recuperarse en general. ¡Siempre asegúrate de tener suficiente alojamiento para todos!"
           revision: "1"
       baseHighOccupancy:
         name:
@@ -11433,7 +11433,7 @@ object:
         name:
           text: "Cocina Improvisada"
         description:
-          text: "Prop. trabajadores que pueden preparar raciones efic. que tus aldeanos pueden llevar con ellos. Efectivo a la hora de extender tu suministro de comida para sobrevivir a los climas más duros cuando los cultivos no crecen."
+          text: "Prop. trabajadores que pueden preparar raciones que tus aldeanos pueden cargar. Efectivo a la hora de extender tu suministro de comida para sobrevivir a los climas más duros cuando los cultivos no crecen."
       base:
         name:
           text: "Cocina"
@@ -11467,7 +11467,7 @@ object:
         name:
           text: "Aserradero Improvisado"
         description:
-          text: "Un taller grande que proporciona trabajadores que convierte troncos cosechados por tu choza del leñador en tablas, requeridas por muchos edificios complejos."
+          text: "Un taller grande que proporciona trabajadores que convierten troncos recogidos por tu choza del leñador en tablas, requeridas por muchos edificios complejos."
       base:
         name:
           text: "Aserradero"
@@ -11484,24 +11484,24 @@ object:
         name:
           text: "Choza del Leñador Imp."
         description:
-          text: "Proporciona trabajadores para cosechar grandes cantidades de madera y crear una pila, recurso primario en la mayoría de las construcciones."
+          text: "Proporciona trabajadores para recoger grandes cantidades de madera y crear una pila, recurso primario en la mayoría de las construcciones."
       base:
         name:
           text: "Choza del Leñador"
         description:
-          text: "Proporciona una bonificación de velocidad a toda la cosecha de madera, incrementa el almacenamiento máximo y le da a tu aldea espacios de trabajo adicionales de leñador."
+          text: "Proporciona una bonificación de velocidad a toda la recolecta de madera, incrementa el almacenamiento máximo y le da a tu aldea espacios de trabajo adicionales de leñador."
       established:
         name:
           text: "Choza del Leñador Est."
         description:
-          text: "Incrementa la bonificación de velocidad a toda la cosecha de madera, incrementa el almacenamiento máximo y le da a tu aldea espacios de trabajo adicionales de leñador."
+          text: "Incrementa la bonificación de velocidad a toda la recolecta de madera, incrementa el almacenamiento máximo y le da a tu aldea espacios de trabajo adicionales de leñador."
     
     outpost:
       makeshift:
         name:
           text: "Puesto Avanzado Imp."
         description:
-          text: "Puesto remoto que tus guardas usarán como punto de atrulla mientras protegen la aldea. ¡No lo pongas en lugares muy peligrosos!"
+          text: "Puesto remoto que tus guardas usarán como punto de patrulla mientras protegen la aldea. ¡No lo pongas en lugares muy peligrosos!"
       base:
         name:
           text: "Puesto Avanzado"
@@ -11645,7 +11645,7 @@ object:
         name:
           text: "Complejo Minero Improvisado"
         description:
-          text: "Proporciona trabajadores para cosechar grandes cantidades de roca y crear una pila, recurso primario en la mayoría de las construcciones."
+          text: "Proporciona trabajadores para recoger grandes cantidades de roca y crear una pila, recurso primario en la mayoría de las construcciones."
       base:
         name:
           text: "Complejo Minero"
@@ -11816,7 +11816,7 @@ object:
         name:
           text: "Torre Recomb. Improvisada"
         description:
-          text: "Una torre que atraerá a la mayoría de gólems amigambles, y curará a los que estén dañados. Requiere un recolector de esencia para funcionar."
+          text: "Una torre que atraerá a la mayoría de gólems amigables, y curará a los que estén dañados. Requiere un recolector de esencia para funcionar."
       base:
         name:
           text: "Torre Recomb."
@@ -11932,7 +11932,7 @@ object:
         name:
           text: "Herrería Improvisada"
         description:
-          text: "Proporsiona trabajadores que pueden convertir lingotes de hierro en herramientas para tus aldeanos que aumentarán su eficiencia en el trabajo. Requiere una forja para procesar mineral crudo en lingotes."
+          text: "Propor. trabajadores que pueden convertir lingotes de hierro en herramientas para tus aldeanos que aumentarán su efic. en el trabajo. Requiere una forja para procesar mineral crudo en lingotes."
       base:
         name:
           text: "Herrería"
@@ -11949,7 +11949,7 @@ object:
         name:
           text: "Bote de Basura Improvisado"
         description:
-          text: "Un lugar dond tirar la basura alrededor de la aldea. Cualqueira puede usarlo, pero solo los basureros pueden vaciarlo y llevar la basura a un incinerador, procesador o vertedero."
+          text: "Un lugar donde tirar la basura alrededor de la aldea. Cualquiera puede usarlo, pero solo los basureros pueden vaciarlo y llevar la basura a un incinerador, procesador o vertedero."
       base:
         name:
           text: "Bote de Basura"
@@ -11977,12 +11977,12 @@ object:
         name:
           text: "Purificadora de Agua"
         description:
-          text: "Incrementa la velocidad de generación y máximo almacenamiento del agua, así como también proporciona espacios adicionales de trabajo de maestro del agua."
+          text: "Incrementa la velocidad de generación y almacenamiento máximo del agua, así como también proporciona espacios adicionales de trabajo de maestro del agua."
       established:
         name:
-          text: "Purificadora de Agua Improvisada"
+          text: "Purificadora de Agua Establecida"
         description:
-          text: "Incrementa la velocidad de generación y máximo almacenamiento del agua, así como también proporciona espacios adicionales de trabajo de maestro del agua."
+          text: "Incrementa la velocidad de generación y almacenamiento máximo del agua, así como también proporciona espacios adicionales de trabajo de maestro del agua."
     
     wayMakerShack:
       makeshift:
@@ -12240,7 +12240,7 @@ resource:
     plural:
       text: "Piedras Cortadas"
     description:
-      text: "Como la roca, pero cuadrada. Usado más para la contrucción de edificios avanzados."
+      text: "Como la roca, pero cuadrada. Usada más para la contrucción de edificios avanzados."
 
   ironOre:
     single:
@@ -12248,7 +12248,7 @@ resource:
     plural:
       text: "Minerales de Hierro"
     description:
-      text: "Hierro crudo que necesita ser fundido en lingotes de antes de poder ser usado."
+      text: "Hierro crudo que necesita ser fundido en lingotes antes de poder ser usado."
 
   ironIngot:
     single:
@@ -12378,7 +12378,7 @@ resource:
     plural:
       text: "Picos"
     description:
-      text: "Incrementa la velocidad de trabajo de los trabajadores que puedan usarlo, como mineros, cosechadores de cristal cortadores de piedra."
+      text: "Incrementa la velocidad de trabajo de los trabajadores que puedan usarlo, como mineros, recolectores de cristal, cortadores de piedra."
 
   axe:
     single:
@@ -12530,7 +12530,7 @@ resource:
     plural:
       text: "Botellas de Agua"
     description:
-      text: "Agua embotellada bebible que puede sert transportada fácilmente."
+      text: "Agua embotellada bebible que puede ser transportada fácilmente."
 
   suspiciousKey:
     single:
@@ -12554,7 +12554,7 @@ resource:
     plural:
       text: "Basura"
     description:
-      text: "Comletamente inútil, puede ser quemada en un incinerador para obtener esencia gratis, o transformada primero en un cubo para que se queme más eficientemente."
+      text: "Completamente inútil, puede ser quemada en un incinerador para obtener esencia gratis, o transformada primero en un cubo para que se queme más eficientemente."
       
   trashyCube:
     single:

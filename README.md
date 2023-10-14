@@ -9,7 +9,7 @@ Esta es una traducción al 100% en español latinoamericano.
 
  
 
-Puede contener algunos errores, o palabras que no todos usen, si es el caso, háganmelo saber. Abajo dejo los links del foro de RtR, Steam Workshop y de Google Drive para que descarguen el mod.
+Puede contener algunos errores, o palabras que no todos usen, si es el caso, háganmelo saber. Abajo dejo los links de Steam Workshop y de Google Drive para que descarguen el mod.
 
  
 
@@ -29,7 +29,6 @@ Para el caso de Steam, solo suscríbanse al mod en Workshop y se instalará auto
 
 ### -Links
 
-- [Foro Rise to Ruins](https://risetoruins.com/index.php?/topic/1836-rise-to-ruins-spanish-translation-espa%C3%B1ol-latam-mexico/)
 - [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1736936175)
 - [Google Drive](https://drive.google.com/file/d/1i9PQIjBtjPRBeVXwRms6Kbq1rZ602dSy/view?usp=sharing)
 
